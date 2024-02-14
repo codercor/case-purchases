@@ -1,6 +1,6 @@
 <template>
     <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <rect x="0.5" y="0.5" width="47" height="47" rx="11.5" fill="#212830" />
+        <rect x="0.5" y="0.5" width="47" height="47" rx="11.5" fill="var(--black-tertiary)" />
         <rect x="0.5" y="0.5" width="47" height="47" rx="11.5" stroke="#383C42" />
         <g clip-path="url(#clip0_2010_1375)">
             <path fill-rule="evenodd" clip-rule="evenodd"
