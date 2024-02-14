@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import IconContentModel from './icons/IconContentModel.vue';
-import IconExperiments from './icons/IconExperiments.vue';
-import IconFunnels from './icons/IconFunnels.vue';
-import IconHelp from './icons/IconHelp.vue';
-import IconHome from './icons/IconHome.vue';
-import IconLogo from './icons/IconLogo.vue';
-import IconPurchases from './icons/IconPurchases.vue';
-import IconSettings from './icons/IconSettings.vue';
-import IconLogout from './icons/IconLogout.vue';
+import IconContentModel from '../icons/IconContentModel.vue';
+import IconExperiments from '../icons/IconExperiments.vue';
+import IconFunnels from '../icons/IconFunnels.vue';
+import IconHelp from '../icons/IconHelp.vue';
+import IconHome from '../icons/IconHome.vue';
+import IconLogo from '../icons/IconLogo.vue';
+import IconPurchases from '../icons/IconPurchases.vue';
+import IconSettings from '../icons/IconSettings.vue';
+import IconLogout from '../icons/IconLogout.vue';
 
 </script>
 <template>

@@ -1,12 +1,16 @@
 <script setup lang="ts">
-import Sidebar from './Sidebar.vue';
+import Sidebar from './bars/Sidebar.vue';
+import Topbar from './bars/Topbar.vue';
 </script>
+
 <template>
   <div class="container">
-    <div class="sidebar">
+    <div class="sidebar-container">
       <Sidebar />
     </div>
-    <nav class="topbar"></nav>
+    <nav class="topbar-container">
+      <Topbar />
+    </nav>
     <main class="main">
       <slot> </slot>
     </main>
@@ -25,18 +29,18 @@ import Sidebar from './Sidebar.vue';
   grid-auto-flow: row;
   background-color: #060B13;
   grid-template-areas:
-    "sidebar topbar"
-    "sidebar main";
+    "sidebar-container topbar-container"
+    "sidebar-container main";
 }
 
-.sidebar {
-  grid-area: sidebar;
-  border-right: 1px #212830 solid;
+.sidebar-container {
+  grid-area: sidebar-container;
+  border-right: 1px var(--black-tertiary) solid;
 }
 
-.topbar {
-  grid-area: topbar;
-  border-bottom: 1px #212830 solid;
+.topbar-container {
+  grid-area: topbar-container;
+  border-bottom: 1px var(--black-tertiary) solid;
 }
 
 .main {
