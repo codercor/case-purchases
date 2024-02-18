@@ -21,7 +21,7 @@ import Topbar from './bars/Topbar.vue';
 .container {
   width: 100%;
   max-width: 1440px;
-  height: 100vh;
+  min-height: 100vh;
   display: grid;
   grid-template-columns: 94px auto;
   grid-template-rows: 64px auto;
@@ -45,5 +45,8 @@ import Topbar from './bars/Topbar.vue';
 
 .main {
   grid-area: main;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 </style>
