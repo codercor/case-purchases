@@ -5,7 +5,6 @@ import {
     IconTotal,
     IconFile,IconEmail,IconPrimaryProduct
 } from '../icons'
-import AllIcons from '../icons/AllIcons.vue';
 import ColumnHeaderForTable from './ColumnHeaderForTable.vue';
 import HeaderForTable from './HeaderForTable.vue';
 import RowForTableVue, { type IProps as IPropsRowForTable } from './RowForTable.vue';
